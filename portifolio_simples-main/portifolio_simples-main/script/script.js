@@ -8,3 +8,15 @@ darkmode.onclick = () => {
     darkmode.classList.replace("bx-sun", "bx-moon");
     document.body.classList.remove("active");
 }};
+
+const observer = new IntersectionObserver((entries)=>{
+    entries.forEach((entry)=>{
+        if(entry.isIntersecting){
+            entry.target.classList.add("show");
+        }
+    });
+});
+
+const elementos = document.querySelectorAll(".hidden");
+
+elementos.forEach((el)=> observer.observe(el));

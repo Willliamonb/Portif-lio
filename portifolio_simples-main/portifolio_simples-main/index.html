@@ -8,11 +8,10 @@
     <title> Portfolio Pessoal - Estudantes de Tecnologia da Informação </title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <!-- Referência de icones -  https://boxicons.com/?query=social -->
 </head>
 
 <body>
-<!-- Navbar  Section Start -->
+
 <header>
     <a href="#" class="logo">Meu <span> Portfólio</span> Dev.</a>
 
@@ -27,32 +26,31 @@
         <div class="bx bx-moon" id="darkmode"></div>
     </ul>
 </header>
-<!-- Navbar Section End -->
-<!-- Home Section Start -->
-<section class="home" id="home">
+
+<section class="home hidden" id="home">
     <div class="social">
         <a href="https://github.com/Willliamonb/Williamonb" target="_blank"><i class='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/in/william-pascini-985948308/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.linkedin.com/in/william-pascini-985948308/" target="_blank"><i class='bx bxl-linkedin'></i></a>
         <a href="https://www.instagram.com/williamonb/" target="_blank"><i class='bx bxl-instagram'></i></a>
         <a href="https://www.facebook.com/williamonb" target="_blank"><i class='bx bxl-meta'></i></a>
-
     </div>
+
     <div class="home-img">
         <img src="img/oficial.png" alt="">
     </div>
+
     <div class="home-text">
         <span>Muito prazer, Eu sou</span>
         <h1>William Pascini</h1>
         <h2>FullStack Developers</h2>
-        <p>Analista de Suporte Júnior apaixonado por tecnologia e desenvolvimento.<br>
-Estudante de TI em transição para a área de Desenvolvimento de Sistemas.<br>
-Focado em desenvolvimento Front-end e Back-end e na criação de soluções web.
-</p>
-        <a href="#contact" class="btn">Download CV</a>
+        <p>
+            Analista de Suporte Júnior apaixonado por tecnologia e desenvolvimento.<br>
+            Estudante de TI em transição para a área de Desenvolvimento de Sistemas.<br>
+            Focado em desenvolvimento Front-end e Back-end e na criação de soluções web.
+        </p>
+        <a href="https://drive.google.com/file/d/13HijK38m7LIcvoHT1nVWaud1ObLc06fU/view?usp=sharing" target="_blank" class="btn">Download CV</a>
     </div>
 </section>
-<!-- Home Section End -->
-<!-- About Section Start -->
 
 <section class="about" id="about">
     <div class="heading">
@@ -61,44 +59,22 @@ Focado em desenvolvimento Front-end e Back-end e na criação de soluções web.
     </div>
 
     <div class="about-container">
-        <div class="about-img">
+        <div class="about-img hidden">
             <img src="img/fundo 2.png" alt="">
         </div>
-        <div class="about-text">
+
+        <div class="about-text hidden">
             <p>
-         Analista de Suporte Júnior com sólida base em Tecnologia da Informação e em transição para o desenvolvimento Full Stack. 
-         Apaixonado por tecnologia e pela criação de aplicações web, estou constantemente aprimorando minhas habilidades em Front-end e Back-end para desenvolver soluções modernas, funcionais e escaláveis.
-</p>
-<p>
-Em busca da primeira oportunidade como desenvolvedor para aplicar meus conhecimentos, aprender com profissionais experientes e contribuir com projetos de impacto. 
-Aberto a oportunidades presenciais, remotas ou híbridas.
-</p>
-
-            <div class="information">
-                <div class="info-box">
-                    <i class='bx bxs-user'></i>
-                    <span>William Pascini</span>
-                </div>
-
-                <div class="info-box">
-                    <i class='bx bxs-phone'></i>
-                    <span>(11) 95438-2135</span>
-                </div>
-
-                <div class="info-box">
-                    <i class='bx bxs-envelope'></i>
-                    <span>Williamonb@gmail.com</span>
-                </div>
-            </div>
-            <a href="#" class="btn">Download Cv</a>
+                Analista de Suporte Júnior com sólida base em Tecnologia da Informação e em transição para o desenvolvimento Full Stack.
+            </p>
+            <p>
+                Em busca da primeira oportunidade como desenvolvedor para aplicar meus conhecimentos e crescer profissionalmente.
+            </p>
         </div>
     </div>
 </section>
-<!-- About Section End -->
 
-<!-- Skills Section Start -->
-
-<section class="skills" id="skills">
+<section class="skills hidden" id="skills">
     <div class="heading">
         <h2>Minhas Habilidades</h2>
         <span>Aprendendo diariamente</span>
@@ -106,7 +82,6 @@ Aberto a oportunidades presenciais, remotas ou híbridas.
 
     <div class="skills-container">
         <div class="bars">
-
             <div class="bars-box">
                 <h3>HTML</h3>
                 <span>94%</span>
@@ -141,6 +116,7 @@ Aberto a oportunidades presenciais, remotas ou híbridas.
                 <div class="light-bar"></div>
                 <div class="percent-bar node-bar"></div>
             </div>
+
             <div class="bars-box">
                 <h3>Github</h3>
                 <span>90%</span>
@@ -148,20 +124,20 @@ Aberto a oportunidades presenciais, remotas ou híbridas.
                 <div class="percent-bar git-bar"></div>
             </div>
         </div>
+
         <div class="skills-img">
             <img src="img/fundo 3.png" alt="Skill">
         </div>
     </div>
 </section>
-<!-- Skills Section End -->
-<!-- Services Section Start -->
-<section class="services" id="services">
+
+<section class="services hidden" id="services">
     <div class="heading">
         <h2>Áreas de estudo</h2>
         <span>Meu caminho profissional</span>
     </div>
-    <div class="services-content">
 
+    <div class="services-content">
         <div class="services-box">
             <i class='bx bx-code-alt'></i>
             <h3>Web Development</h3>
@@ -173,6 +149,7 @@ Aberto a oportunidades presenciais, remotas ou híbridas.
             <h3>Backend Development</h3>
             <a href="#">Learn More</a>
         </div>
+
         <div class="services-box">
             <i class='bx bx-brush'></i>
             <h3>UI/UX Design</h3>
@@ -186,42 +163,38 @@ Aberto a oportunidades presenciais, remotas ou híbridas.
         </div>
     </div>
 </section>
-<!-- Services Section End -->
 
-<!-- Contact Section Start -->
-<section class="contact" id="contact">
+<section class="contact hidden" id="contact">
     <div class="heading">
         <h2>Fale comigo</h2>
         <span>Que tal mandar uma mensagem?</span>
     </div>
+
     <div class="contact-form">
         <form action="">
             <input type="text" placeholder="Nome">
-            <input type="email" name="" id="" placeholder="Email">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
+            <input type="email" placeholder="Email">
+            <textarea cols="30" rows="10" placeholder="Escreva sua mensagem aqui..."></textarea>
             <input type="button" value="Enviar" class="contact-button">
         </form>
     </div>
 </section>
-<!-- Contact Section End -->
+
 <div class="footer">
     <h2>Follow Me</h2>
     <div class="footer-social">
         <a href="https://github.com/Willliamonb/Williamonb" target="_blank"><i class='bx bxl-github'></i></a>
-        <a href="https://www.linkedin.com/in/william-pascini-985948308/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.linkedin.com/in/william-pascini-985948308/" target="_blank"><i class='bx bxl-linkedin'></i></a>
         <a href="https://www.instagram.com/williamonb/" target="_blank"><i class='bx bxl-instagram'></i></a>
         <a href="https://www.facebook.com/williamonb" target="_blank"><i class='bx bxl-meta'></i></a>
     </div>
-
 </div>
 
 <div class="copyright">
-    &#169; William Pascini</p>
+    &#169; William Pascini
 </div>
 
+<script src="script/script.js"></script>
 
-    <!-- Javascript -->
-    <script src="script/script.js"></script>
 </body>
-
 </html>

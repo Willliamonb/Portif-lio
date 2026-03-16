@@ -179,12 +179,13 @@ header.shadow {
   transform: translateY(-2px);
 }
 
-
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-top: 2rem;
+    display: flex;
+    align-items: center; /* 🔥 CENTRALIZA VERTICALMENTE */
+    justify-content: center;
+    gap: 60px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .about-img img {
@@ -196,6 +197,16 @@ header.shadow {
   font-size: var(--p-font);
   font-weight: 400;
   text-align: justify;
+}
+
+.about-text {
+    max-width: 500px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .information {
@@ -241,7 +252,7 @@ header.shadow {
 }
 
 .bars-box h3,
-span {
+.bars-box span {
   font-size: 1.1rem;
   font-weight: 500;
 }
@@ -425,6 +436,30 @@ form textarea {
 
 .copyright a {
   color: #22cf91;
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.hidden{
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.9s ease;
+    width: 100%;
+}
+
+.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #444;
+    max-width: 600px;
 }
 
 /* For Mobile */
